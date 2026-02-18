@@ -1,0 +1,25 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Development tools
+.vscode/
+*.swp
+
+
+# System Files 
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# LAMP Specific
+vendor/
+.env
+*.log
+composer.phar
+
+# Sensitive LAMP files
+config.php
